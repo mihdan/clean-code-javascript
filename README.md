@@ -1,8 +1,8 @@
 # clean-code-javascript
 
 ## Содержание
-  1. [Введение](#introduction)
-  2. [Variables](#variables)
+  1. [Введение](#Введение)
+  2. [Переменные](#Переменные)
   3. [Functions](#functions)
   4. [Objects and Data Structures](#objects-and-data-structures)
   5. [Classes](#classes)
@@ -39,15 +39,15 @@ shaped into its final form. Finally, we chisel away the imperfections when
 we review it with our peers. Don't beat yourself up for first drafts that need
 improvement. Beat up the code instead!
 
-## **Variables**
-### Use meaningful and pronounceable variable names
+## **Переменные**
+### Используйте значащие и произносимые имена переменных
 
-**Bad:**
+**Плохо:**
 ```javascript
 const yyyymmdstr = moment().format('YYYY/MM/DD');
 ```
 
-**Good**:
+**Хорошо**:
 ```javascript
 const yearMonthDay = moment().format('YYYY/MM/DD');
 ```
@@ -55,14 +55,14 @@ const yearMonthDay = moment().format('YYYY/MM/DD');
 
 ### Use the same vocabulary for the same type of variable
 
-**Bad:**
+**Плохо:**
 ```javascript
 getUserInfo();
 getClientData();
 getCustomerRecord();
 ```
 
-**Good**:
+**Хорошо**:
 ```javascript
 getUser();
 ```
