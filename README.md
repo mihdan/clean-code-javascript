@@ -1,7 +1,7 @@
 # clean-code-javascript
 
-## Table of Contents
-  1. [Introduction](#introduction)
+## Содержание
+  1. [Введение](#introduction)
   2. [Variables](#variables)
   3. [Functions](#functions)
   4. [Objects and Data Structures](#objects-and-data-structures)
@@ -12,7 +12,7 @@
   9. [Formatting](#formatting)
   10. [Comments](#comments)
 
-## Introduction
+## Введение
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](http://www.osnews.com/images/comics/wtfm.jpg)
 
